@@ -1,45 +1,44 @@
-<!doctype html>
+<!DOCTYPE html>
 <html>
-<head>
-    <meta charset="utf-8">
-	<link rel="stylesheet" type="text/css" href="bootstrap-3.3.7/css/bootstrap.min.css">
-    <link rel="stylesheet" type="text/css" href="style/stylesheet-compiled.css?<?php echo rand(0,999); ?>">
-  </head>
-<?php
-    include "header.php";
-    //echo "<div>".$index.php."</div>"; //Change only this part on every other page you will create
-?>
-<body style="background-color:whitesmoke;">
-<div style="height:295px;">
-        <form action="/action_page.php">
-            <div class="form-group">
-              <h2 class="text-center">ระบบตรวจนับครุภัณฑ์</h2><br>
-              <center>
-                  <div class="input-group col-xs-4">
-                    <input type="text" class="form-control" placeholder="Search" name="search" id="ex3">
-                    <div class="input-group-btn">
-                      <button class="btn btn-default" type="submit"><i class="glyphicon glyphicon-search"></i></button>
-                    </div>
-                  </div>
-              </center>
-            </div><br>
-            <h4 class="text-center">หรือ</h4><br>
-            <center><button type="submit" class="btn btn-default btn-lg">
-                <span class="glyphicon glyphicon-qrcode"></span>&nbspค้นหาจากคิวอาร์โค้ด
-            </button></center>
-          </form><br><br>
-</div>
-</body>
-<?php
-	include "footer.php"
-?>
+	<head>
+		<meta charset="utf-8">
+		<title> ระบบจัดการทรัพย์สินภายในองค์กร </title>
+		<link rel="stylesheet" type="text/css" href="bootstrap-3.3.7/css/bootstrap.min.css">
+		<link rel="stylesheet" type="text/css" href="style/stylesheet-compiled.css?<?php echo rand(0,999); ?>">
+	</head>
+	
+	<body class="login">
 
- <script type="text/javascript" src="lib/jquery/jquery-3.2.1.min.js"></script>
-    <!-- <script type="text/javascript" src="lib/popper/umd/popper.min.js"></script> -->
-    <!-- <script type="text/javascript" src="lib/bootstrap-4.0.0/js/bootstrap.min.js"></script> -->
-    <script type="text/javascript" src="lib/bootstrap-3.3.7/js/bootstrap.min.js"></script>
-    <script type="text/javascript" src="lib/bootstrap-validator/validator.min.js"></script>
-    <script type="text/javascript" src="script/script.js?<?php echo rand(0,999); ?>"></script>
-    <script src="//ajax.googleapis.com/ajax/libs/jquery/1.11.0/jquery.min.js"></script>
-    <script src="//netdna.bootstrapcdn.com/bootstrap/3.1.1/js/bootstrap.min.js"></script>	
+  <!-- Modal Content -->
+  <form class="modal-content animate" action="/action_page.php">
+    <div class="imgcontainer">
+		<!--<img src="img/logo.png" alt="Avatar" class="avatar">-->
+      <img src="img/logo.png">
+    </div>
+	<div class="imgcontainer">
+      <img src="img/img_avatar.png" alt="Avatar" class="avatar">
+    </div>
+
+    <div class="container">
+      <label><b>Username</b></label>
+      <input type="text" placeholder="Enter Username" name="uname" required>
+
+      <label><b>Password</b></label>
+      <input type="password" placeholder="Enter Password" name="psw" required>
+
+      <button type="submit">Login</button>
+      <input type="checkbox" checked="checked"> Remember me
+    </div>
+
+    <div class="container" style="background-color:#f1f1f1">
+		<span class="reg"><a href="#">Register</a></span>
+		<span class="psw">Forgot <a href="#">password?</a></span>
+    </div>
+	<br>
+  </form>
+</div>
+	</body>
+	
+	
+	<script type="test/javascript" src="bootstrap-3.3.7/js/bootstrap.min.js"></script>
 </html>
