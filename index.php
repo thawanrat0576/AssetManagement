@@ -5,6 +5,10 @@
 	<link rel="stylesheet" type="text/css" href="bootstrap-3.3.7/css/bootstrap.min.css">
     <link rel="stylesheet" type="text/css" href="style/stylesheet-compiled.css?<?php echo rand(0,999); ?>">
   </head>
+<?php
+    include "header.php";
+    //echo "<div>".$index.php."</div>"; //Change only this part on every other page you will create
+?>
 <body style="background-color:whitesmoke;">
 <div style="height:295px;">
         <form action="/action_page.php">
@@ -26,6 +30,9 @@
           </form><br><br>
 </div>
 </body>
+<?php
+	include "footer.php"
+?>
 
  <script type="text/javascript" src="lib/jquery/jquery-3.2.1.min.js"></script>
     <!-- <script type="text/javascript" src="lib/popper/umd/popper.min.js"></script> -->
