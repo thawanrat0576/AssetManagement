@@ -7,7 +7,6 @@
     <link rel="stylesheet" type="text/css" href="style/stylesheet-compiled.css?<?php echo rand(0,999); ?>">
   </head>
 
-  
   <body>
 	<div class="container container-logo">
 		<div class="block-img-logo">
@@ -71,10 +70,7 @@
 		</div><!-- /.container-fluid -->
 	</nav>
 </header>
-
-
-  
-  
+	  
   <script type="text/javascript" src="lib/jquery/jquery-3.2.1.min.js"></script>
     <!-- <script type="text/javascript" src="lib/popper/umd/popper.min.js"></script> -->
     <!-- <script type="text/javascript" src="lib/bootstrap-4.0.0/js/bootstrap.min.js"></script> -->
