@@ -26,7 +26,7 @@
               </center>
             </div><br>
             <h4 class="text-center">หรือ</h4><br>
-            <center><button type="button" class="btn btn-default btn-lg">
+            <center><button type="submit" class="btn btn-default btn-lg">
                 <span class="glyphicon glyphicon-qrcode"></span>&nbspค้นหาจากคิวอาร์โค้ด
             </button></center>
           </form><br><br>
