@@ -6,10 +6,8 @@
     <link rel="stylesheet" type="text/css" href="style/stylesheet-compiled.css?<?php echo rand(0,999); ?>">
   </head>
 <?php
-
     include "header.php";
     //echo "<div>".$index.php."</div>"; //Change only this part on every other page you will create
-
 ?>
 <body style="background-color:floralwhite;">
 <div style="height:295px;">

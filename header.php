@@ -7,6 +7,7 @@
     <link rel="stylesheet" type="text/css" href="style/stylesheet-compiled.css?<?php echo rand(0,999); ?>">
   </head>
 
+  
   <body>
 	<div class="container container-logo">
 		<div class="block-img-logo">
@@ -30,7 +31,7 @@
 			<!-- Collect the nav links, forms, and other content for toggling -->
 			<div class="collapse navbar-collapse" id="bs-example-navbar-collapse-1">
 				<ul class="nav navbar-nav">
-					<li class="active"><a href="#"><span class="glyphicon glyphicon-home" aria-hidden="true"></span>&nbsp; หน้าหลัก<span class="sr-only">(current)</span></a></li>
+					<li class="active"><a href="#"><span class="glyphicon glyphicon-th-large" aria-hidden="true"></span>&nbsp; หน้าหลัก<span class="sr-only">(current)</span></a></li>
 					<li><a href="#"><span class="glyphicon glyphicon-plus" aria-hidden="true"></span>&nbsp; เพิ่มข้อมูลทรัพย์สิน</a></li>
 					<li><a href="#"><span class="glyphicon glyphicon-file" aria-hidden="true"></span>&nbsp; รายงาน</a></li>
 					<li class="dropdown">
@@ -70,7 +71,10 @@
 		</div><!-- /.container-fluid -->
 	</nav>
 </header>
-	  
+
+
+  
+  
   <script type="text/javascript" src="lib/jquery/jquery-3.2.1.min.js"></script>
     <!-- <script type="text/javascript" src="lib/popper/umd/popper.min.js"></script> -->
     <!-- <script type="text/javascript" src="lib/bootstrap-4.0.0/js/bootstrap.min.js"></script> -->
